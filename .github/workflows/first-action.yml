@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -ame: print greeting
-      run: echo "Hellow world"
-      -name: print goodbye
-      run: echo "bye"
+      - name: print greeting
+        run: echo "Hellow world"
+      - name: print goodbye
+        run: echo "bye"
